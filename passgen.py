@@ -6,7 +6,7 @@ passw  = []
 length = input("Password length ")
 def passwords(length):
 	if length == '':
-		print("no password is of 0 words")
+		print("Passwords cannot be 0 words.")
 		exit()
 	elif length.replace(' ','').isalpha() == True:
 		print("type a number")
