@@ -3,13 +3,13 @@ import random
 
 digit = printable.strip()
 passw  = []
-length = input("Password length ")
+length = input("Password length. ")
 def passwords(length):
 	if length == '':
 		print("Passwords cannot be 0 words.")
 		exit()
 	elif length.replace(' ','').isalpha() == True:
-		print("type a number")
+		print("Type a number.")
 		exit()
 	else:
 		for _ in range(int(length)):
